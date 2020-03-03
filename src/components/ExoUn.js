@@ -4,7 +4,7 @@ const ExoUn = () => {
 	const [titre, setTitre] = useState('Le Titre');
 
 	const changeTitle = () => {
-		setTitre('Modifié');
+		setTitre('Titre modifié');
 	};
 
 	return (
