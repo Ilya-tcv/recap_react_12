@@ -2,7 +2,9 @@ import React from 'react';
 
 const ExoDeux = () => {
      return (
-          <h1>Exo2</h1>
+          <div className="jumbotron">
+               <p>Mettre un écouteur d'événements sur les boutons nav et changer la panel en conséquence</p>
+          </div>
      )
 }
 
