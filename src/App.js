@@ -8,6 +8,7 @@ import ExoTrois from './components/ExoTrois';
 import ExoQuatre from './components/ExoQuatre';
 import ExoCinq from './components/ExoCinq';
 import ExoSix from './components/ExoSix';
+import ExoSept from './components/ExoSept';
 
 const App = () => {
 	return (
@@ -22,6 +23,7 @@ const App = () => {
 					<Link to='/exo4'>Exo4</Link>
 					<Link to='/exo5'>Exo5</Link>
 					<Link to='/exo6'>Exo6</Link>
+					<Link to='/exo7'>Exo7</Link>
 				</div>
 
 				<Switch>
@@ -31,6 +33,7 @@ const App = () => {
 					<Route path='/exo4'><ExoQuatre /></Route>
 					<Route path='/exo5'><ExoCinq /></Route>
 					<Route path='/exo6'><ExoSix /></Route>
+					<Route path='/exo7'><ExoSept /></Route>
 				</Switch>
 			</div>
 		</Router>
